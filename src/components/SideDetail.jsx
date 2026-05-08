@@ -3,6 +3,7 @@ import { useCart } from "../context/cart/CartProvider";
 import CartBookItem from "../components/CartBookItem";
 import { useNavigate } from "react-router-dom";
 
+
 export default function SideDetail() {
   const { cart, total, updateQty, removeFromCart } = useCart();
   const navigate = useNavigate();
